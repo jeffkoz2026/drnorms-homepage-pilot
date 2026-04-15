@@ -1,12 +1,296 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Dr. Norm’s Pilot</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Norm’s</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      color: #1f1f1f;
+      background: #f7f4ee;
+    }
+
+    .hero {
+      background: #efe3cf;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .hero-inner {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      color: #7a5a2b;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 48px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .subhead {
+      font-size: 22px;
+      max-width: 760px;
+      margin: 0 auto 22px;
+      color: #4a4a4a;
+    }
+
+    .intro {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: 18px;
+      color: #5a5a5a;
+    }
+
+    .section {
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 16px;
+    }
+
+    .section-text {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 40px;
+      color: #555;
+      font-size: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+
+    .card h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #555;
+      margin-bottom: 18px;
+      font-size: 17px;
+    }
+
+    .label {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #7a5a2b;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .pillars {
+      background: #fffaf2;
+    }
+
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 30px;
+    }
+
+    .pillar {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .pillar h4 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      background: #2d2418;
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .cta h2 {
+      font-size: 36px;
+      margin-bottom: 16px;
+    }
+
+    .cta p {
+      max-width: 720px;
+      margin: 0 auto 24px;
+      color: #e8dcc8;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d8b26a;
+      color: #1f1f1f;
+      text-decoration: none;
+      padding: 14px 24px;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 26px 20px;
+      font-size: 14px;
+      color: #777;
+      background: #f1eadf;
+    }
+
+    @media (max-width: 800px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      .subhead {
+        font-size: 20px;
+      }
+
+      .grid,
+      .pillars-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-title {
+        font-size: 28px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Dr. Norm’s Homepage Pilot</h1>
-  <p>If you’re seeing this, it’s working.</p>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Dr. Norm’s</div>
+      <h1>Crafted with care. Backed by science. Proven results.</h1>
+      <p class="subhead">
+        Premium cannabis products built on family values, great taste, precise dosing, and targeted wellness support.
+      </p>
+      <p class="intro">
+        Inspired by our dad, the real Dr. Norm, and our pharmacist mom Audrey — and their lifelong commitment to helping others.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">One company. Two divisions.</h2>
+      <p class="section-text">
+        Dr. Norm’s brings together delicious edibles and science-backed wellness solutions — giving customers clear choices for fun, sleep, relief, and everyday balance.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <div class="label">Edibles</div>
+          <h3>Delicious first. Effective always.</h3>
+          <p>
+            What began with a single chocolate chip cookie has grown into a lineup of cookies, brownies, crispy rice bars, gummies, and more.
+          </p>
+          <ul>
+            <li>Homemade taste with no weedy flavor</li>
+            <li>Precise dosing for every experience level</li>
+            <li>Built for fun, flavor, and long-lasting effects</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="label">Wellness</div>
+          <h3>Targeted support for real needs.</h3>
+          <p>
+            Science-backed formulations designed for better sleep, relief, stress support, and functional everyday use.
+          </p>
+          <ul>
+            <li>Purpose-built cannabinoid formulations</li>
+            <li>Fast-acting and long-lasting options</li>
+            <li>Multiple formats for customer preference</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pillars">
+    <div class="container">
+      <h2 class="section-title">Why people choose Dr. Norm’s</h2>
+
+      <div class="pillars-grid">
+        <div class="pillar">
+          <h4>Amazing Taste</h4>
+          <p>Bakery-quality products made to taste great first — because experience matters.</p>
+        </div>
+
+        <div class="pillar">
+          <h4>Precise Dosing</h4>
+          <p>Know Your Dose™ means customers can find the experience that works for them.</p>
+        </div>
+
+        <div class="pillar">
+          <h4>Family-Owned Integrity</h4>
+          <p>Built from a real family story with care, consistency, and a commitment to helping others.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Dr. Norm’s is just getting started.</h2>
+    <p>
+      This pilot homepage is the foundation for a bigger brand experience — including product education, wellness storytelling, and the future Ask Dr. Norm’s platform.
+    </p>
+    <a href="#" class="button">Coming Soon</a>
+  </section>
+
+  <footer class="footer">
+    © 2026 Dr. Norm’s. All rights reserved.
+  </footer>
 
 </body>
 </html>
